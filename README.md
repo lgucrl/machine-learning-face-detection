@@ -1,6 +1,6 @@
 # Machine Learning face detection
 
-This project implements a **lightweight face detection pipeline** aimed at running with **limited computing capacity** by combining classic computer vision methods with a fast, well-established machine learning model. Instead of deep neural networks, the project uses **Histogram of Oriented Gradients (HOG)** features and a **Support Vector Classifier (SVC)** to distinguish *face* vs *non-face* image patches. For detection in full-size images, the trained classifier is applied using a **sliding-window** approach and refined with **Non-Maximum Suppression (NMS)** to produce final bounding boxes.
+This project implements a **lightweight face detection pipeline** in Python aimed at running with **limited computing capacity** by combining classic computer vision methods with a fast, well-established machine learning model. Instead of deep neural networks, the project uses **Histogram of Oriented Gradients (HOG)** features and a **Support Vector Classifier (SVC)** to distinguish *face* vs *non-face* image patches. For detection in full-size images, the trained classifier is applied using a **sliding-window** approach and refined with **Non-Maximum Suppression (NMS)** to produce final bounding boxes.
 
 ---
 
